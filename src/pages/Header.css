@@ -1,0 +1,102 @@
+.main-header {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    height: 100px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #BC2432;
+  }
+  
+  .logo-container {
+    text-decoration: none;
+  }
+  
+  .logo-container img {
+    max-width: 100px;
+    transition: transform 0.3s ease;
+  }
+  
+  .logo-container img:hover {
+    transform: scale(1.1);
+  }
+  
+  .title {
+    font-size: 40px;
+    color: #BC2432;
+    font-family: "Cabin";
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .title:hover {
+    color: #BC2432;
+    font-size: 42px;
+  }
+  
+  .nav-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+  }
+  
+  .nav-icons a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .nav-icons a img {
+    max-width: 40px;
+    transition: transform 0.3s ease;
+    opacity: 0.7;
+  }
+
+  .nav-icons a:hover img {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  
+  .main-header.mobile {
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .menu-icon {
+    order: 3;
+    margin-top: 10px;
+    justify-content: flex-end;
+  }
+  
+  .mobile-menu-options {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .mobile-menu-options a {
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .mobile-menu-options a:last-child {
+    border-bottom: none;
+  }
+  

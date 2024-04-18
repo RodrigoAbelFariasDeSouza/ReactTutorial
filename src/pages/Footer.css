@@ -1,0 +1,29 @@
+.main-footer {
+    background-color: #fff; /* Fundo branco */
+    border-top: 2px solid #BC2432; /* Linha vermelha separando do corpo */
+    padding: 15px;
+    position: fixed; /* Fixar o rodapé na parte inferior da tela */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); /* Sombra na parte superior para separar do corpo */
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #BC2432; 
+  }
+  
+  .footer-image {
+    max-width: 30px; 
+    margin-right: 10px;
+  }
+  
+  .footer-title {
+    font-size: 16px; 
+    font-family: 'Cabin';
+    color: black;
+  }
+  
